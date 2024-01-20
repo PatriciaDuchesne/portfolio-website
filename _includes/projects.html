@@ -1,0 +1,9 @@
+<div class="w-full columns-1 gap-4 sm:columns-2 lg:columns-3">
+    {% for project in site.data.settings.projects %}
+    <a href="/projects/{{ project.url }}">
+        <img class="w-full mb-4 hover:opacity-80"
+             src="/assets/images/projects/{{ project.url }}/thumb.png"
+             alt="{{ project.name }}">
+    </a>
+    {% endfor %}
+</div>

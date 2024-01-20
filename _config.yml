@@ -1,0 +1,9 @@
+url: "https://patriciaduchesne.com"
+baseurl: ""
+title: "Patricia Duchesne"
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false

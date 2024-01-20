@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-CA" class="h-full">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body class="bg-white h-full">
+<nav class="w-full p-8 text-center">
+    <div class="mx-auto flex justify-center">
+        <a href="/">
+            <img src="/assets/images/logo-temp.png" alt="{{ site.title }}">
+        </a>
+    </div>
+    <div class="w-full space-x-4">
+        <a href="/" class="text-blue-400 font-semibold uppercase hover:text-blue-600">WORK</a>
+        <a href="/about.html" class="text-blue-400 font-semibold uppercase hover:text-blue-600">ABOUT</a>
+        <a href="/contact.html" class="text-blue-400 font-semibold uppercase hover:text-blue-600">CONTACT</a>
+    </div>
+</nav>
+<div class="p-6">
+    {{ content }}
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+</html>

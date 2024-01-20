@@ -1,0 +1,7 @@
+projects:
+  - name: Project 1  # Name of the project, used as alt text on home page images
+    url: project-1  # URL slug of the project, must match the name of the project directory in the `assets/images/projects/` directory
+  - name: Project 2
+    url: project-2
+  - name: Project 3
+    url: project-3
