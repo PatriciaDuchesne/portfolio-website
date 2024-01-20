@@ -1,5 +1,6 @@
 # Portfolio Website
 
+- Install system dependencies, `sudo apt install build-essential libffi-dev`
 - Install ruby v3.3
 - Install node v20
 - Install project dependencies
